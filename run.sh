@@ -1,11 +1,12 @@
 #!/bin/bash
 
 # Configuration Options
-MATLAB_FILE=""
-EXECUTION_DIRECTORY=""
+MATLAB_FILE="" # matlab script name to run via `matlab -r ${MATLAB_FILE}`
+EXECUTION_DIRECTORY="" # Directory matlab file is in to run
 
-PROJECT_REMOTE_DIRECTORY=""
-PROJECT_LOCAL_DIRECTORY=""
+# Directories to sync with
+PROJECT_REMOTE_DIRECTORY="" # On remote machine
+PROJECT_LOCAL_DIRECTORY="" # On local machine
 
 USERNAME=""
 HOSTS="" # Seperate with commas, no newlines
