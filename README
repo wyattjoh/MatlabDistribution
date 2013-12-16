@@ -1,0 +1,15 @@
+Matlab Distributed Computation
+--------------------------------
+
+1. Make scripts executable:
+
+	chmod +x install.sh run.sh
+
+2. Add configuration to run.sh
+3. Run install:
+
+	./install.sh
+
+4. Run deployment:
+
+	./run.sh
